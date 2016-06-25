@@ -33,7 +33,10 @@ set autowrite  " Write the contents of the file, if it has been modified, on
 map <silent><A-Right> <C-]>
 map <silent><A-Left> <C-T>
 
-" Toogle fold in normal mode, if one exists
+" In normal mode, press Space to toggle the current fold open/closed. However,
+" if the cursor is not in a fold, move to the right (the default behavior). In
+" addition, with the manual fold method, you can create a fold by visually
+" selecting some lines, then pressing Space. 
 nnoremap <silent> <Space> @=(foldlevel('.')?'za':'l')<CR>
 vnoremap <Space> zf
 
