@@ -25,7 +25,9 @@ set incsearch		" do incremental searching
 set ignorecase 	        " Case insensitive by default
 set smartcase           " If there are caps, go case-sensitive
 set wrapscan            " Searches wrap around the end of the file.
+set hlsearch
 
+set nu
 
 set autowrite  " Write the contents of the file, if it has been modified, on
                " each :next, :rewind, :last, :first, :previous, :stop, :suspend, :tag, :!,
