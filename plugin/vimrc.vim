@@ -12,6 +12,11 @@ let g:mapleader = ","
 filetype plugin indent on
 
 
+syntax enable
+set background=light
+colorscheme solarized
+
+
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => General keyboard mappings and small configs
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""
