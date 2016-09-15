@@ -121,5 +121,6 @@ let g:netrw_sort_sequence = '[\/]$,*'
 let g:netrw_browse_split = 4
 map <silent> <C-E> :Lexplore<CR>
 
-
+" Dot files hidden. Press gh to toggle dot file hiding.
+let g:netrw_list_hide = '\(^\|\s\s\)\zs\.\S\+'
 
