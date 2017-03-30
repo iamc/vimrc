@@ -17,6 +17,9 @@ set background=light
 colorscheme solarized
 
 
+set modeline
+set modelines=5
+
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => General keyboard mappings and small configs
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""
